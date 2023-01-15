@@ -1,0 +1,17 @@
+div{
+    text-align: center;
+}
+button {
+    margin: 0.5rem;
+    width: 8rem;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: orange;
+    color: #fff;
+}
