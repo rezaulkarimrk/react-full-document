@@ -1,0 +1,47 @@
+body {
+    background-color: #4c4c4c;
+  }
+.mainDiv {
+    flex-direction:column;
+    box-sizing: border-box;
+    background-color: #4c4c4c;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.title {
+    color: orange;
+}
+.subDiv {
+    text-align: center;
+    background: #3c3c3c;
+    padding: 10px 201px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+p.counter {
+    color: orange;
+    font-size: 30px;
+}
+button.allButton {
+    color: rgb(195, 154, 77);
+    /* border: none; */
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin: 0 0.2rem;
+    transition: all 0.3s;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 5px;
+}
+button.allButton:hover {
+    background: orange;
+    color: black;
+}
+.allButton:disabled {
+    background: red;
+}

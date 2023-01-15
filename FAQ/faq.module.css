@@ -1,0 +1,24 @@
+.faq{
+    margin: 1rem;
+    background-color: rgb(229, 231, 233);
+    padding: 1rem;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem #2c2c2c;
+}
+.faqq{
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    margin: 0px;
+    border: none;
+    font-size: 27px;
+    background: transparent;
+}
+p{
+    text-align: justify;
+}
+.creator{
+    display: block;
+    text-align: right; 
+}

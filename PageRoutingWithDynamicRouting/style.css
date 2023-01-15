@@ -1,0 +1,80 @@
+body{
+    padding: 20px;
+    text-align: justify;
+    
+}
+nav{
+    height: 10vh;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .active{
+    color: #0c111b;
+    background-color: orange;
+}
+.allLink{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 1.2rem;
+    padding: 1.2rem 1rem;
+    transition: 0.3s;
+    border-radius: 0.6rem;
+}
+.allLink:hover{
+    color: orange;
+    background-color: #0c111b;
+    padding: 1rem 1rem;
+}
+
+section{
+    display: grid;
+    grid-gap: 1rem;
+}
+article{
+    background-color: aliceblue;
+    padding: 1rem;
+}
+button.Btn {
+    margin-top: 30px;
+    border: none;
+    background: orange;
+    padding: 6px 15px;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 8px;
+    box-shadow: 2px 5px 10px #333;
+    transition: 0.3s;
+}
+button.Btn:hover {
+    transform: scale(1.2, 1.2);
+}
+@media screen and (min-width: 600px) {
+    section{
+        grid-template-columns: auto auto;
+
+    }
+    
+}
+@media screen and (min-width: 992px) {
+    section{
+        grid-template-columns: auto auto auto;
+    }
+    
+}
+label.user-input-lebel {
+    width: 70px;
+    display: inline-block;
+    padding: 5px;
+}
+.from-div {
+    margin: 20px;
+    font-size: 18px;
+}
+.user-from-btn {
+    margin: 0px !important;
+    /* display: block; */
+    /* text-align: center !important; */
+}
